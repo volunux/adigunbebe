@@ -1,0 +1,16 @@
+extends layout
+
+include include/tmix
+
+block content
+	
+	.tdphotoshead
+		
+	.tdphotos
+		unless photo === []
+			for photo in photos.photo
+				.tdindividuald.float-left
+					+fixDir(photo.path)
+
+		else
+			p There are no photos available for this title.
