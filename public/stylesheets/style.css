@@ -1,6 +1,7 @@
 * {
 
 		text-decoration: none !important;
+		font-size : 12px !important;
 }
 
 * input , select {
@@ -9,15 +10,6 @@
 	margin-bottom : 1.5em !important;
 }
 
-h1 , h2 {
-
-	font-size : 1em !important;
-}
-
-h3 , h4 , h5 , h6 {
-
-	font-size : 1em !important;
-}
 
 img {
 
